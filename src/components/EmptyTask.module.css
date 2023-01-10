@@ -1,0 +1,25 @@
+.emptyList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 24px;
+}
+
+.emptyListText {
+  color: var(--gray-300);
+  font-size: 1rem;
+  line-height: 22px;
+}
+
+.emptyList div:first-child {
+  font-weight: 700;
+}
+
+.emptyList div:last-child {
+  font-weight: 400;
+}
+
+.emptyListImg {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,42 @@
+.newTaskFormContainer {
+  width: 100%;
+  max-width: 736px;
+  margin: 0 auto;
+  display: flex;
+  gap: 8px;
+  margin-top: -1.5rem;
+  margin-bottom: 64px;
+}
+
+.newTaskFormContainer input {
+  padding: 1rem;
+  flex-grow: 1;
+  font-size: 1rem;
+  font-weight: 400;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 0.5rem;
+  color: var(--gray-300);
+}
+
+.newTaskFormContainer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-grow: 0;
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  border-radius: 0.5rem;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  transition: 0.2s;
+}
+
+.newTaskFormContainer button:hover {
+  background: var(--blue);
+}
